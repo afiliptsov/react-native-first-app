@@ -8,6 +8,7 @@ export default function App() {
       <Text>{outputText}</Text>
       <Button title="Change Text" onPress ={()=> setOutputText('The text changed!')} />
       <Button>Next Page Link</Button>
+      <TextInput placeholder="Case Number" />
     </View>
   );
 }
