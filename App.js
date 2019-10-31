@@ -9,7 +9,9 @@ export default function App() {
       <Button title="Change Text" onPress ={()=> setOutputText('The text changed!')} />
       <Button>Next Page Link</Button>
       <TextInput placeholder="Case Number" />
+      <Modal>
       <FlatList></FlatList>
+      </Modal>
     </View>
   );
 }
